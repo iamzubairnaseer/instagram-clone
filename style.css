@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contaniner{
+    display: flex;
+    background-color: #fafafa;
+}
+
+.animation{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.login{
+    width: 55%;
+    height: 370px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.header{
+    position: absolute;
+    left: 59%;
+    top: 13%;
+}
+
+.form{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.form input{
+    background-color: #eee;
+    border: 1px solid silver; 
+    border-radius: 0.5px;
+    padding: 12px 6px;
+}
+
+.form button{
+    width: 270px;
+    background-color: #3897f0!important;
+    border: 1px solid #3897f0!important;
+    border-radius: 0.5px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px 0;
+    color: white;
+}
+
+
+.ordiv{
+    width: 78%;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.or{
+    text-align: center;
+    font-size: 15px;
+    color:#999;
+    font-weight: 600;
+}
+
+.or::before{
+    content: "";
+    background: #efefef;
+    display: block;
+    height: 2px;
+    width: 110px;
+    position: relative;
+    top: 11px;
+}
+
+.or::after{
+    content: "";
+    background: #efefef;
+    display: block;
+    height: 2px;
+    width: 110px;
+    position: relative;
+    bottom: 10px;
+    left: 160px;
+}
+
+.loginfb{
+    width: 78%;
+    margin: auto;
+    margin-top: 15px;   
+}
+
+.loginfb{
+    text-align: center;
+}
+
+.loginfb a{
+    text-decoration: none;
+}
+
+.signup{
+    width:50%;
+    background-color: #fff;
+    border: 1px solid #eee;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 18px 15px;
+    text-align: center;
+}
+
+.signup a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #3789f0;
+}
+
+.app{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.app p{
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 100px;
+    line-height: 100px;
+    display: flex;
+    background-color: #fafafa;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+footer ul li{
+    padding: 0px 8px;
+}
+
+footer ul li a{
+    text-decoration: none;
+}
+
+footer p{
+    color: silver;
+}
